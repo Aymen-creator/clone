@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap');
 body{
     background: #1C1A19;
+    background-image: url(img/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
 }
 .section1{
-    background: #3C3A39
+    background: #3C3A39;
 }
 .head{
     display: flex;
     justify-content: space-between;
+    
+}
+.headmain button img {
+    color: #FFF5E1;
+}
+.head img{
+    display: none;
 }
 .head h1{
     color: white;
@@ -26,12 +37,46 @@ body{
     text-decoration: none;
     color: white;
 }
+.text h1{
+    width: 327px;
+        height: 124px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0.3700000047683716px;
+        text-align: left;
+        color: #FF6B00;
+        margin-bottom: -20px;
+}
+.text h4{
+    width: 327px;
+    height: 27px;
+    font-family: 'poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF5E1;
+    margin-bottom: -0px;
+}
+.text p {
+    width: 327px;
+    height: 123px;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
 @media  screen and (max-width:740px) {
     body {
         background-image: url(img/illustration-header-mobile.png);
         background-repeat: no-repeat;
         background-position: right;
-        background-position-y: bo;
     }
     .headmain ul{
         display: none;
@@ -54,6 +99,7 @@ body{
         justify-content: space-between;
     }
     .head img {
+        display: flex;
         width: 24px;
         height: 24px;
         cursor: pointer;
@@ -62,6 +108,7 @@ body{
     }
     .hero {
         padding-top: 250px;
+        margin-left: 10px;
     }
     .text{
         width: 375px;
@@ -107,7 +154,7 @@ body{
     }
     .social .btn {
         display: flex;
-        margin-top: -280px;
+        margin-top: -270px;
     }
     .btn button {
         width: Hug (40px);
