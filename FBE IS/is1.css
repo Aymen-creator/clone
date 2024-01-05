@@ -55,6 +55,11 @@ body{
     text-decoration: none;
     color: white;
 }
+.headmain li a:hover {
+    color: #FF6B00;
+    font-size: 16px;
+    transition: .3s;
+}
 .text h1{
     width: 327px;
         height: 124px;
@@ -113,6 +118,9 @@ body{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+.btn button img {
+    cursor: pointer;
 }
 @media  screen and (max-width:740px) {
     body {
