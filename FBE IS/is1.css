@@ -131,6 +131,7 @@ body{
         background-image: url(img/illustration-header-mobile.png);
         background-repeat: no-repeat;
         background-position: right;
+        background-position-y: top;
         transition: .3s;
     }
     .headmain ul{
