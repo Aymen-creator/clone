@@ -131,7 +131,7 @@ body{
         background-image: url(img/illustration-header-mobile.png);
         background-repeat: no-repeat;
         background-position: right;
-        background-position-y: top;
+        background-position-y: bottom;
         transition: .3s;
     }
     .headmain ul{
@@ -168,7 +168,7 @@ body{
         transition: .3s;
     }
     .hero {
-        padding-top: 250px;
+        padding-top: 130px;
         margin-left: 10px;
         padding-left: 0;
         transition: .3s;
