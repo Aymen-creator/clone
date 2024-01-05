@@ -14,24 +14,42 @@ body{
     justify-content: space-between;
     
 }
+.headmain button {
+    border-radius: 1px;
+    background: #1C1A19;
+    border: none;
+}
 .headmain button img {
-    color: #FFF5E1;
+    color: white;
+    width: 24px;
+    height: 24px;
 }
 .head img{
     display: none;
 }
 .head h1{
     color: white;
-    padding-left: 10px;
+    padding-left: 142px;
     text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-top: 13px;
+
 }
 .headmain ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin-right: 120px;
 }
 .headmain li{
     padding: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
 }
 .headmain li a{
     text-decoration: none;
@@ -41,13 +59,15 @@ body{
     width: 327px;
         height: 124px;
         font-family:'Times New Roman', Times, serif;
-        font-size: 46px;
+        font-size: 50px;
         font-weight: 400;
         line-height: 64px;
         letter-spacing: 0.3700000047683716px;
         text-align: left;
         color: #FF6B00;
         margin-bottom: -20px;
+        /*need correction*/
+        margin-right: 710px;
 }
 .text h4{
     width: 327px;
@@ -75,6 +95,8 @@ body{
 .social .btn {
     display: grid;
     width: auto;
+    padding-left: 18px;
+    padding-top: 100px;
 }
 .btn button {
     width: 40px;
@@ -84,6 +106,13 @@ body{
     background: #1C1A19;
     border: none;
     transition: .3s;
+}
+.hero {
+    padding-left: 0px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 @media  screen and (max-width:740px) {
     body {
@@ -113,6 +142,8 @@ body{
         text-align: center;
         justify-content: space-between;
         transition: .3s;
+        padding-left: 12px;
+        padding-top: 0px;
     }
     .head img {
         display: flex;
@@ -126,7 +157,9 @@ body{
     .hero {
         padding-top: 250px;
         margin-left: 10px;
+        padding-left: 0;
         transition: .3s;
+        display: grid;
     }
     .text{
         width: 375px;
@@ -175,7 +208,7 @@ body{
     }
     .social .btn {
         display: flex;
-        margin-top: -270px;
+        margin-top: -340px;
         transition: .3s;
     }
     .btn button {
