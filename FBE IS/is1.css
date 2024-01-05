@@ -126,6 +126,9 @@ body{
 .btn button img {
     cursor: pointer;
 }
+.part2 {
+    display: none;
+}
 @media  screen and (max-width:740px) {
     body {
         background-image: url(img/illustration-header-mobile.png);
@@ -133,6 +136,7 @@ body{
         background-position: right;
         background-position-y: bottom;
         transition: .3s;
+        display: list-item;
     }
     .part1 {
         height: 10vh;
@@ -238,4 +242,8 @@ body{
         cursor: pointer;
         transition: .3s;
     }
+    /*.part2 {
+        display: contents;
+        background: white;
+    }*/
 }
