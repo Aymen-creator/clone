@@ -134,6 +134,9 @@ body{
         background-position-y: bottom;
         transition: .3s;
     }
+    .part1 {
+        height: 10vh;
+    }
     .headmain ul{
         display: none;
     }
@@ -166,7 +169,7 @@ body{
         transition: .3s;
     }
     .hero {
-        padding-top: 130px;
+        padding-top: 120px;
         margin-left: 10px;
         padding-left: 0;
         transition: .3s;
